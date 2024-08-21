@@ -17,4 +17,5 @@ else:
     print(f"o numero: {numero2},é maior que, {numero1},A soma dos dois numeros é {soma},o produto é ^{produto},a media é {media}")
 if numero1== numero2:
     print("\nos dois numeros são iguais")
+    print("\ndigite")
 
