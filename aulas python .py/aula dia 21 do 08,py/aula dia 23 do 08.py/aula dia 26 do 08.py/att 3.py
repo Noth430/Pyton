@@ -1,5 +1,2 @@
-import os
-import time
+import os 
 os.system("cls || clear")
-
-
