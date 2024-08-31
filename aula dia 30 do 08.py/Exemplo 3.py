@@ -1,18 +1,25 @@
-import os 
+"""
+Escreva um algoritmo que pergunte ao usuário se deseja inserir mais uma nota.
+Mostre um menu conforme o descrito abaixo:
+
+S – Inserir mais uma nota;
+P – Ver quantas notas foram inseridas;
+N – Calcular a média aritmética das notas informadas.
+
+O programa deve mostrar a média aritmética para o usuário.
+
+"""
+
+import os
 import time
-os.system("cls || clear")
+
+os.system("clear")
+
+soma : float = 0
 quantidadeNotas = 0
-soma = 0
 
-for i in range(3):
-    nota = float(input(f"Digite {i+1} Nota: "))
+while True :
 
-    if nota < 0 or nota > 10:
-        print("Nota Inválida! \nDigitte Novamente: ")
-    else:
-        # soma = soma + nota
-        soma += nota
-        break      
     print("""
         \t=== MENU ===
         S - Inserir uma nota
@@ -20,7 +27,6 @@ for i in range(3):
         N - Calcular média aritmética
     """)
    
-        
     resposta = input("Deseja inserir uma nota: ").upper()
    
     match  resposta:
@@ -48,13 +54,6 @@ for i in range(3):
             print("Opção inválida... \n")
             time.sleep(3)
 
+media  = soma / quantidadeNotas
 
-            media =  soma / quantidadeNotas
-
-            if media >=7:
-                print("Aprovado.")
-            elif media >=5: 
-                print("Recuperação")
-            else:
-                print("Reprovado")
-                break
+print(f"Média: {media}")
