@@ -16,7 +16,7 @@ while n1 < 0 or n1 > 10 or n2 < 0 or n2 > 10 or n3 < 0 or n3 > 10:
     n1 = float(input('Nota inválida! Digite a primeira nota: '))
     n2 = float(input('Nota inválida! Digite a segunda nota: '))
     n3 = float(input('Nota inválida! Digite a terceira nota: '))
-
+        
 if media < 5:
         print(f'Reprovado! Sua média foi {media}')
 
@@ -26,6 +26,7 @@ elif 5 <= media <= 6.9:
 else:
         print(f'Aprovado! Sua média foi {media}')
     
-            
+        
+        print("deseja digita uma nova nota ? ")
 
           
