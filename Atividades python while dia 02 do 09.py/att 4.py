@@ -1,20 +1,20 @@
 import os 
 os.system("cls || clear")
-contador = 0
-soma = 0
-orcamento=float(input("Informe um teto de gasto"))
-while True:
-    for i in range(1):
-        gasto = float(input("digite um valor: "))
-        soma += gasto
-        contador += 0
+orcamento=float(input("\nInforme um orçamento"))
+gasto_total = 0
 
-    if gasto > orcamento:
-        print(f"Valor mensal: {gasto}")
-        break
+while True:
+        gasto_diario = float(input("\ndigite um valor: "))
+        if gasto_diario == 0:
+              break
+        gasto_total += gasto_diario
+        
+        if gasto_total > orcamento:
+          exedente = gasto_total - orcamento
+          print(f"Você gastou R${gasto_total:.2f}. Excedeu seu orçamento em R${exedente}: ")
+        else:
+             print(f"Você gastou R${gasto_total:.2f}. Valor total dentro do orçamento ")
       
         
-
-
 
 
