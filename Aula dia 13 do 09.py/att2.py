@@ -20,5 +20,5 @@ for i in range(6):
 
 lista_vetores = verificacao(lista_vetores)
 
-for nota,maior_numero,menor_numero in lista_vetores:
+for nota in lista_vetores:
     print(nota)
