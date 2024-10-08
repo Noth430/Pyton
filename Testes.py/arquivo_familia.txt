@@ -1,0 +1,6 @@
+familias que responderam1 ,media  salarial:  2500.0,media de filhos:  5.0, maior salario: 2500.0, menor salario: 2500.0
+  familias que responderam2 ,media  salarial:  2250.5,media de filhos:  5.0, maior salario: 2500.0, menor salario: 2001.0
+  familias que responderam2 ,media  salarial:  3750.0,media de filhos:  1252.5, maior salario: 5000.0, menor salario: 2500.0
+  familias que responderam1 ,media  salarial:  50000.0,media de filhos:  6.0, maior salario: 50000.0, menor salario: 50000.0
+  familias que responderam1 ,media  salarial:  8000.0,media de filhos:  23.0, maior salario: 8000.0, menor salario: 8000.0
+  
